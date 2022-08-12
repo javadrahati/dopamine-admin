@@ -1,0 +1,221 @@
+// Here you can add other styles
+
+@font-face {
+  font-family: IranYekan;
+  src: url("../assets/fonts/fa/IranYekan.ttf")
+}
+
+@font-face {
+  font-family: IranSans;
+  src: url("../assets/fonts/fa/IranSans.ttf")
+}
+
+//html {
+//  direction: rtl;
+//}
+
+body {
+  font-family: IranYekan, 'sans-serif';
+}
+
+.sidebar-nav .nav-title {
+  margin-top: 0 !important;
+}
+
+.modal-header .btn-close {
+  margin: -0.5rem auto -0.5rem -0.5rem !important;
+}
+
+.accordion-button {
+  font-size: 0.875rem;
+}
+
+.extra-small {
+  font-size: 0.75em;
+}
+
+.form-multi-select-search {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: var(--cui-form-multi-select-search-bg,#fff);
+  border: 0;
+  border-radius: .25rem;
+  color: var(--cui-form-multi-select-search-color,rgba(44,56,74,.95));
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  max-width: 100%;
+  padding: 0;
+}
+
+.form-multi-select.show .form-multi-select-search[size] {
+  display: inline;
+}
+
+.form-multi-select-search[size] {
+  margin-left: .75rem;
+}
+
+.form-multi-select-search:focus {
+  outline: 0;
+}
+
+
+.form-multi-select-selection-tags .form-multi-select-search {
+  height: 2rem;
+  margin-left: 1rem;
+}
+
+.form-multi-select-search:placeholder-shown {
+  width: 100%;
+}
+
+.form-multi-select-selection-tags {
+  min-height: calc(2.25rem + 2px);
+  padding: .125rem 1.75rem .125rem .125rem;
+}
+
+.form-multi-select {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: var(--cui-form-multi-select-bg,#fff);
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgZmlsbD0ibm9uZSIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTIuNzA3MSAxNS43MDcxQzEyLjMxNjYgMTYuMDk3NiAxMS42ODM0IDE2LjA5NzYgMTEuMjkyOSAxNS43MDcxTDUuMjkyODkgOS43MDcxMUM0LjkwMjM3IDkuMzE2NTggNC45MDIzNyA4LjY4MzQyIDUuMjkyODkgOC4yOTI4OUM1LjY4MzQyIDcuOTAyMzcgNi4zMTY1OCA3LjkwMjM3IDYuNzA3MTEgOC4yOTI4OUwxMiAxMy41ODU4TDE3LjI5MjkgOC4yOTI4OUMxNy42ODM0IDcuOTAyMzcgMTguMzE2NiA3LjkwMjM3IDE4LjcwNzEgOC4yOTI4OUMxOS4wOTc2IDguNjgzNDIgMTkuMDk3NiA5LjMxNjU4IDE4LjcwNzEgOS43MDcxMUwxMi43MDcxIDE1LjcwNzFaIiBmaWxsPSJibGFjayIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+");
+  background-position: left .5rem center;
+  background-repeat: no-repeat;
+  background-size: 20px 16px;
+  border: 1px solid var(--cui-form-multi-select-border-color,#b1b7c1);
+  border-radius: .25rem;
+  color: var(--cui-form-multi-select-color,rgba(44,56,74,.95));
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: .375rem .75rem .375rem 1.75rem;
+  position: relative;
+  width: 100%;
+}
+
+
+.form-multi-select-selection-cleaner {
+  background: transparent var(--cui-form-multi-select-cleaner-bg,url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgba(44, 56, 74, 0.681)' viewBox='0 0 16 16'%3E%3Cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3E%3C/svg%3E")) center/.75rem auto no-repeat;
+  border: 0;
+  border-left: 1px solid var(--cui-form-multi-select-cleaner-border-color,#b1b7c1);
+  box-sizing: content-box;
+  height: .75rem;
+  padding: .5rem;
+  position: absolute;
+  left: 2rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: .75rem;
+}
+
+.form-multi-select.show {
+  background-color: var(--cui-form-multi-select-focus-bg,#fff);
+  border-color: var(--cui-form-multi-select-focus-border-color,#6557e4);
+  box-shadow: 0 0 0 .25rem rgba(50,31,219,.25);
+  color: var(--cui-form-multi-select-focus-color,rgba(44,56,74,.95));
+}
+
+.form-multi-select-selection {
+  display: inline;
+  padding: 0;
+}
+
+.form-multi-select-tag {
+  background-color: var(--cui-form-multi-select-tag-bg,#ebedef);
+  border: 1px solid var(--cui-form-multi-select-tag-border-color,#d8dbe0);
+  border-radius: .25rem;
+  display: inline-block;
+  margin: .125rem;
+  padding: calc(.125rem - 1px) .5rem;
+}
+
+.form-multi-select-tag-delete {
+  background-color: transparent;
+  border: 0;
+  margin-left: 6px;
+  margin-right: 6px;
+  padding: 0;
+}
+
+
+.form-multi-select-dropdown {
+  background-clip: padding-box;
+  background-color: var(--cui-form-multi-select-options-bg,#fff);
+  border: 1px solid var(--cui-form-multi-select-options-border-color,#d8dbe0);
+  border-radius: .25rem;
+  box-shadow: 0 4px 5px 0 rgba(var(--cui-elevation-base-color,60,75,100),.14),0 1px 10px 0 rgba(var(--cui-elevation-base-color,60,75,100),.12),0 2px 4px -1px rgba(var(--cui-elevation-base-color,60,75,100),.2);
+  left: 0;
+  margin-top: .625rem;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  display: none;
+}
+
+.form-multi-select.show .form-multi-select-dropdown {
+  display: initial;
+  z-index: 1000;
+}
+
+.form-multi-select-dropdown:not([class*=border]) {
+  border: 0;
+}
+
+.dir-ltr{
+  direction: ltr;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.form-multi-select-options {
+  color: var(--cui-form-multi-select-options-color,rgba(44,56,74,.95));
+  font-size: 1rem;
+  padding: .5rem .75rem;
+}
+
+.form-multi-select-option {
+  border-radius: .25rem;
+  cursor: pointer;
+  margin-bottom: 2px;
+  padding: .5rem 1.25rem;
+  position: relative;
+  vertical-align: top;
+}
+.form-multi-select-option.form-multi-selected {
+  background-color: var(--cui-form-multi-select-option-selected-bg,#ebedef);
+}
+.form-multi-select-option.form-multi-select-option-with-checkbox {
+  padding: .5rem calc(1.25rem + 1em) .5rem calc(1.25rem + 1em);
+}
+
+.form-multi-select-option.form-multi-select-option-with-checkbox:before {
+  background-color: var(--cui-form-multi-select-option-indicator-bg,#fff);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: var(--cui-form-multi-select-option-indicator-border,1px solid rgba(0,0,21,.25));
+  border-radius: .25rem;
+  content: "";
+  display: block;
+  height: 1em;
+  right: .625rem;
+  pointer-events: none;
+  position: absolute;
+  top: .7rem;
+  width: 1em;
+}
+
+
+.form-multi-select-option.form-multi-selected:before {
+  background-color: var(--cui-form-multi-select-option-selected-indicator-bg,#321fdb) !important;
+  background-image: var(
+                  --cui-form-multi-select-option-selected-indicator-bg-image,
+                  url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path fill='none' stroke='rgba(255, 255, 255, 0.87)' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/></svg>"));
+  border-color: var(--cui-form-multi-select-option-selected-indicator-border-color,#321fdb);
+}
